@@ -4,6 +4,43 @@
   </a>
 </p>
 
+# pandas-ta Snapshot (Version 0.3.14b0)
+
+## ⚠️ Important Notice
+
+This repository contains a **snapshot** of the pandas-ta library at version SHA **b465491f226d9e07fffd4e59cd0affc9284521ca** (equivalent to v0.3.14b0). This is NOT an active fork or maintained version.
+
+## What Happened to pandas-ta?
+
+The original pandas-ta repository was removed by its maintainer and moved to a commercial model. For more details, see this [Reddit discussion](https://safereddit.com/r/algotrading/comments/1ldm0kb/what_happened_to_pandasta_python_package/).
+
+## For Active Development
+
+**Please use the proper community fork instead:**
+
+🔗 **[pandas-ta-classic](https://github.com/xgboosted/pandas-ta-classic)** - The actively maintained open-source fork
+
+This fork preserves the open-source nature of pandas-ta and is actively maintained by the community.
+
+## About This Snapshot
+
+- **Version**: 0.3.14b0
+- **Purpose**: Historical reference only
+- **Status**: Not maintained
+- **License**: Preserved from original
+
+## Installation
+
+**Note**: This snapshot is NOT published to PyPI. You can install it using the following command and then use it like any other package:
+
+```sh
+pip install git+https://git@github.com/crypticorn-ai/pandas-ta-classic.git@b465491f226d9e07fffd4e59cd0affc9284521ca
+```
+
+_Below is the original README.md file for pandas-ta._
+
+---
+
 Pandas TA - A Technical Analysis Library in Python 3
 =================
 
