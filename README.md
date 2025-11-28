@@ -8,7 +8,9 @@
 
 ## ⚠️ Important Notice
 
-This repository contains a **snapshot** of the pandas-ta library at version SHA **b465491f226d9e07fffd4e59cd0affc9284521ca** (equivalent to v0.3.14b0). This is NOT an active fork or maintained version.
+This repository contains a **snapshot** of the pandas-ta library at upstream version SHA **b465491f226d9e07fffd4e59cd0affc9284521ca** (equivalent to v0.3.14b0).  
+On top of that snapshot, Crypticorn maintains a **minimal compatibility patch for NumPy 2.x**, currently at commit SHA **d08f265001f73c78fe4cdb41f295fff86628ffc3**.  
+The public API and indicator behaviour are intended to remain identical to the original snapshot; the additional commit only addresses NumPy 2 compatibility issues.
 
 ## What Happened to pandas-ta?
 
@@ -24,17 +26,23 @@ This fork preserves the open-source nature of pandas-ta and is actively maintain
 
 ## About This Snapshot
 
-- **Version**: 0.3.14b0
-- **Purpose**: Historical reference only
-- **Status**: Not maintained
+- **Upstream Version**: 0.3.14b0
+- **Upstream Base SHA**: `b465491f226d9e07fffd4e59cd0affc9284521ca`
+- **Crypticorn NumPy 2.x compatibility SHA**: `d08f265001f73c78fe4cdb41f295fff86628ffc3`
+- **Purpose**: Historical reference with a small compatibility patch
+- **Status**: Not an actively developed fork; changes are limited to internal compatibility needs
 - **License**: Preserved from original
 
 ## Installation
 
-**Note**: This snapshot is NOT published to PyPI. You can install it using the following command and then use it like any other package:
+**Note**: This snapshot is NOT published to PyPI. You can install a specific commit using one of the following commands and then use it like any other package:
 
 ```sh
+# Upstream-equivalent snapshot (v0.3.14b0)
 pip install git+https://git@github.com/crypticorn-ai/pandas-ta-classic.git@b465491f226d9e07fffd4e59cd0affc9284521ca
+
+# NumPy 2.x–compatible snapshot used internally at Crypticorn
+pip install git+https://git@github.com/crypticorn-ai/pandas-ta-classic.git@d08f265001f73c78fe4cdb41f295fff86628ffc3
 ```
 
 _Below is the original README.md file for pandas-ta._
