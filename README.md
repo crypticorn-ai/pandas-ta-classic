@@ -8,8 +8,8 @@
 
 ## ⚠️ Important Notice
 
-This repository contains a **snapshot** of the pandas-ta library at upstream version SHA **b465491f226d9e07fffd4e59cd0affc9284521ca** (equivalent to v0.3.14b0).  
-On top of that snapshot, Crypticorn maintains a **minimal compatibility patch for NumPy 2.x**, currently at commit SHA **d08f265001f73c78fe4cdb41f295fff86628ffc3**.  
+This repository contains a **snapshot** of the pandas-ta library at upstream version SHA **[b465491](https://github.com/crypticorn-ai/pandas-ta-classic/commit/b465491f226d9e07fffd4e59cd0affc9284521ca)** (equivalent to v0.3.14b0).  
+On top of that snapshot, Crypticorn maintains a **minimal compatibility patch for NumPy 2.x**, currently at commit SHA **[d08f265](https://github.com/crypticorn-ai/pandas-ta-classic/commit/d08f265001f73c78fe4cdb41f295fff86628ffc3)**.  
 The public API and indicator behaviour are intended to remain identical to the original snapshot; the additional commit only addresses NumPy 2 compatibility issues.
 
 ## What Happened to pandas-ta?
@@ -27,8 +27,8 @@ This fork preserves the open-source nature of pandas-ta and is actively maintain
 ## About This Snapshot
 
 - **Upstream Version**: 0.3.14b0
-- **Upstream Base SHA**: `b465491f226d9e07fffd4e59cd0affc9284521ca`
-- **Crypticorn NumPy 2.x compatibility SHA**: `d08f265001f73c78fe4cdb41f295fff86628ffc3`
+- **Upstream Base SHA**: [`b465491`](https://github.com/crypticorn-ai/pandas-ta-classic/commit/b465491f226d9e07fffd4e59cd0affc9284521ca)
+- **Crypticorn NumPy 2.x compatibility SHA**: [`d08f265`](https://github.com/crypticorn-ai/pandas-ta-classic/commit/d08f265001f73c78fe4cdb41f295fff86628ffc3)
 - **Purpose**: Historical reference with a small compatibility patch
 - **Status**: Not an actively developed fork; changes are limited to internal compatibility needs
 - **License**: Preserved from original
